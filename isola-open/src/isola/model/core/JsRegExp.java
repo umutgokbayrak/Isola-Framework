@@ -1,0 +1,1 @@
+package isola.model.core;public class JsRegExp implements JsVariable {	private String value;		public JsRegExp() {		super();	}		public JsRegExp(String regExp) {		this.value = regExp;	}		public String getValue() {		return value;	}		public void setValue(String value) {		this.value = value;	}		@Override	public String toString() {		return value;	}}

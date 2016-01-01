@@ -1,0 +1,1 @@
+package isola.tags.ext.grid;public class PropertyGridTag extends GridPanelTag {	private static final long serialVersionUID = 1398867645655026712L;}

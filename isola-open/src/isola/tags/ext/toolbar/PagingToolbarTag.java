@@ -1,0 +1,26 @@
+package isola.tags.ext.toolbar;import javax.servlet.jsp.JspException;import isola.model.core.JsVariableImpl;import isola.model.ext.base.Observable;import isola.model.ext.data.Store;import isola.model.ext.toolbar.PagingToolbar;/** *  * <p> * A specialized toolbar that is bound to a Ext.data.Store and provides * automatic paging controls. * </p> *  *  *  * <p> * Sample: * </p> *  * <pre><code>
+ * &lt;ext:body runOnLoad="true"&gt;
+ * 	var jsonStore = &lt;ext:jsonStore id="jsonStore" url="servlet/JsonSampleServlet" root="result" totalProperty="total" remoteSort="true" autoLoad="true"&gt;
+ * 		&lt;ext:httpParam name="id" value="1"/&gt;
+ * 		&lt;ext:httpParam name="action" value="env"/&gt;
+ * 		&lt;ext:storeMapping name="name" /&gt;
+ * 		&lt;ext:storeMapping name="value"/&gt;
+ * 	&lt;/ext:jsonStore&gt;
+ * 
+ * 	&lt;ext:gridPanel storeId="jsonStore" renderTo="hebelek" width="700" height="400" border="true" frame="true" forceFit="true" title="Bu Mudur?" rowNumbererEnabled="true" region="north"&gt;
+ * 		&lt;ext:pagingToolbar position="bottom" pageSize="10" displayInfo="true" storeId="jsonStore" /&gt;
+ * 		&lt;ext:columnModel&gt;
+ * 			&lt;ext:gridColumn dataIndex="name" sortable="true" header="Name" /&gt;
+ * 			&lt;ext:gridColumn dataIndex="value" sortable="false" header="Value" /&gt;
+ * 		&lt;/ext:columnModel&gt;
+ * 	&lt;/ext:gridPanel&gt;
+ * &lt;/ext:body&gt;
+ * &lt;div id="hebelek"&gt;&lt;/div&gt;
+ * </code> *  * <pre> *  *  *  * &lt;p&gt;When a button on the paging grid is pressed store is called by two parameters.&lt;p&gt; * 
+ * &lt;ul&gt; * 
+ * 	&lt;li&gt;limit: How many records should the servlet return.&lt;/li&gt; * 
+ *  &lt;li&gt;start: The record number should the servlet start processing &lt;/li&gt; * 
+ * &lt;/ul&gt; *  *  *  * <p>On the server side developer can fetch these parameters by : </p> *  * <pre> * &lt;code&gt; * 
+ * 		String sStart = request.getParameter(&quot;start&quot;); * 
+ * 	String sLimit = request.getParameter(&quot;limit&quot;); * 
+ * &lt;/code&gt; * </pre> *  *  *  * <p> * Paging is highly dependend on the business rules, so developer is responsible * of fetching the right data set *  * and caching them. * </p> *  *  *  * @author Umut Gokbayrak */public class PagingToolbarTag extends ToolbarTag {	private static final long serialVersionUID = 4788392357507406085L;	private String displayInfo;	private String displayMsg;	private String emptyMsg;	private String pageSize;	private String storeId;	private Store store;		@Override	public int doEndTag() throws JspException {		PagingToolbar obj = new PagingToolbar();		prepareConfig(obj);		// manage listeners		prepareEvents(obj);		// print the output		printOut(obj);		return EVAL_PAGE;	}		@Override	public void clear() {		super.clear();		displayInfo = "false";		displayMsg = emptyMsg = null;		pageSize = "20";		store = null;		storeId = null;	}		/**	 * 	 * 	 * 	 * @param obj	 */	protected void prepareConfig(PagingToolbar obj) {		super.prepareConfig(obj);		if (displayInfo != null) {			try {				obj.displayInfo = Boolean.valueOf(displayInfo);			} catch (Exception e) {			}		}		obj.displayMsg = displayMsg;		obj.emptyMsg = emptyMsg;		if (pageSize != null) {			try {				obj.pageSize = Integer.parseInt(pageSize);			} catch (Exception e) {			}		}		if (store != null) {			obj.store = store;		}		if (storeId != null && store == null) {			obj.put("store", new JsVariableImpl(storeId));		}	}		@Override	protected void prepareEvents(Observable obj) {		super.prepareEvents(obj);	}		/**	 * 	 * True to display the displayMsg (defaults to false)	 */	public void setDisplayInfo(String displayInfo) {		this.displayInfo = displayInfo;	}		/**	 * 	 * The paging status message to display (defaults to	 * "Displaying {0} - {1} of {2}").	 * 	 * Note that this string is formatted using the braced numbers 0-2 as tokens	 * that	 * 	 * are replaced by the values for start, end and total respectively. These	 * tokens should	 * 	 * be preserved when overriding this string if showing those values is	 * desired.	 */	public void setDisplayMsg(String displayMsg) {		this.displayMsg = displayMsg;	}		/**	 * 	 * The message to display when no records are found (defaults to	 * "No data to display")	 */	public void setEmptyMsg(String emptyMsg) {		this.emptyMsg = emptyMsg;	}		/**	 * 	 * The number of records to display per page (defaults to 20)	 */	public void setPageSize(String pageSize) {		this.pageSize = pageSize;	}		/**	 * 	 * <strong>Required</strong>The Ext.data.Store the paging toolbar should use	 * as its data source	 */	public void setStore(Store store) {		this.store = store;	}		/**	 * 	 * Lets assigining a predefined store variable to this component via the	 * store's id.	 * 	 * 	 * 	 * @param storeId	 */	public void setStoreId(String storeId) {		this.storeId = storeId;	}}

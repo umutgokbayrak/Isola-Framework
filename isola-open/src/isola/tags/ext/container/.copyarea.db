@@ -1,0 +1,10 @@
+ClearCase CopyAreaDB|4
+toska/Isola/src/org/turkcell/isola/tags/ext/container
+2
+6
+10:ViewPortTag.java|1|11b7894a018|dfe|3811e549|a418e4b8162c4ac1b530c95a9c5827f8|0
+14:BoxComponentTag.java|1|11b7894a018|11aa|41005faa|2c24b74a52ff47aba60a83d38a424879|0
+b:TabTag.java|1|11b7894a018|55f|1a9e91d1|bac85658b6594544a14938c8f6b888cd|0
+10:TabPanelTag.java|1|11b7894a018|3ab2|d38632b5|ddef5376df234ed0bd12aec773a37d59|0
+d:PanelTag.java|1|11b7894a018|7942|7f100e2a|ca35ee44dc12450a928947aab99b158a|0
+10:DataViewTag.java|1|11b7894a018|2f7d|95bfa9ed|90df0803dd1a40509df6bb261351cef5|0

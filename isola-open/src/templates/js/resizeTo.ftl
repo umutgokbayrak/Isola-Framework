@@ -1,0 +1,2 @@
+<#if elementId == '$window'>window.resizeTo(${resizeToWidth}, ${resizeToHeight});<#else><#if resizeToWidth??>$(${elementId}).setStyle('width','${resizeToWidth}');</#if><#if resizeToHeight??>$(${elementId}).setStyle('height','${resizeToHeight}');</#if>
+</#if>

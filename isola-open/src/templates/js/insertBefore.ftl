@@ -1,0 +1,1 @@
+var referenceObj = document.getElementById('${referenceId}');var tmpObj = document.createElement('${tag}');<#if innerHTML??>tmpObj.innerHTML = '${innerHTML?html}';</#if><#if attrs??><#list attrs as attr>tmpObj.setAttribute('${attr.label}', '${attr.value}');</#list></#if>referenceObj.insertBefore(tmpObj, referenceObj.lastChild);

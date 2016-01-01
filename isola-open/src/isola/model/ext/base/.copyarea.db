@@ -1,0 +1,7 @@
+ClearCase CopyAreaDB|4
+toska/Isola/src/org/turkcell/isola/model/ext/base
+2
+3
+f:Observable.java|1|11b789480d8|176b|219c0966|f256fe921762460db59ae39835a2b4cc|0
+e:Component.java|1|11b789480d8|2fdb|46fb942d|57c835f9380644cf83ec763f9759679e|0
+e:Container.java|1|11b789480d8|2565|f7a40ad3|9c029b15f0844150a3486f75ae1090f3|0

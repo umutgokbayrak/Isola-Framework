@@ -1,0 +1,11 @@
+package isola.model.ext.grid;import isola.helpers.JsHelper;import isola.model.core.JsArray;import isola.model.core.JsVariableImpl;import isola.model.ext.base.Observable;/** *  * <p> * This is the default implementation of a ColumnModel used by the Grid. This * class is *  * initialized with an Array of column config objects. * </p> *  *  *  * <p> * An individual column's config object defines the header string, the * Ext.data.Record *  * field the column draws its data from, an otional rendering function to * provide customized *  * data formatting, and the ability to apply a CSS class to all cells in a * column through *  * its id config option. * </p> *  *  *  * <p> * Usage: * </p> *  *  *  * <pre> * &lt;code&gt; * 
+ * var colModel = new Ext.grid.ColumnModel([ * 
+ * {header: &quot;Ticker&quot;, width: 60, sortable: true}, * 
+ * {header: &quot;Company Name&quot;, width: 150, sortable: true}, * 
+ * {header: &quot;Market Cap.&quot;, width: 100, sortable: true}, * 
+ * {header: &quot;$ Sales&quot;, width: 100, sortable: true, renderer: money}, * 
+ * {header: &quot;Employees&quot;, width: 100, sortable: true, resizable: false} * 
+ * ]); * 
+ * &lt;/code&gt; * </pre> *  *  *  * <p> * The config options listed for this class are options which may appear in each * individual *  * column definition. * </p> *  *  *  * @author Umut Gokbayrak */public class ColumnModel extends Observable {	private static final long serialVersionUID = -7264922530753062290L;	private static final String TAG = "Ext.grid.ColumnModel";	public JsArray columns;	/**	 * If a row expander is existant attach it.	 */	public String expander;		/**
+	 * 
+	 */	public ColumnModel() {		super();	}		@Override	protected void _postProcessToString() {		super._postProcessToString();				if (expander != null) {			if (columns == null) columns = new JsArray();			columns.add(0, new JsVariableImpl(expander));		}		if (columns != null) {			put("~~~NIL1", columns);		}	}		@Override	public String toString() {		_postProcessToString();		if (expander == null) {			return "new " + TAG + "(" + JsHelper.printJsObject(this) + ")";		}		return "new " + TAG + "(" + columns.toString() + ")";	}}

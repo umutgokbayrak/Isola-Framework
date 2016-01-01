@@ -1,0 +1,8 @@
+package isola.model.ext.toolbar;import isola.helpers.JsHelper;import isola.model.ext.constants.XTypes;/** *  * <p> * A simple element that adds a greedy (100% width) horizontal space between * items in *  * a toolbar. * </p> *  *  *  * <pre><code>
+ * new Ext.Panel({
+ *	tbar : [
+ *		'Item 1',
+ *		{xtype: 'tbfill'}, // or '->'
+ *		'Item 2'
+ *	]
+ * }); *  *  *  * @author Umut Gokbayrak */public class ToolbarFill extends ToolbarSpacer {	private static final long serialVersionUID = 2738616731080757596L;	private static final String TAG = "Ext.Toolbar.Fill";	/**	 * 	 * <p>The registered xtype to create. This config option is not used when	 * passing a	 * 	 * config object into a constructor. This config option is used only when	 * lazy	 * 	 * instantiation is being used, and a child item of a Container is being	 * 	 * specified not as a fully instantiated Component, but as a Component	 * config	 * 	 * object. The xtype will be looked up at render time up to determine what	 * 	 * type of child Component to create.</p>	 * 	 * 	 * 	 * @see XTypes <p>If you subclass Components to create your own Components,	 *      you may register	 * 	 *      them using Ext.ComponentMgr.registerType in order to be able to take	 *      advantage	 * 	 *      of lazy instantiation and rendering.</p>	 */	public String xtype = XTypes.tbfill;		public ToolbarFill() {		super();	}		@Override	protected void _postProcessToString() {		super._postProcessToString();		if (xtype != null)			put("xtype", xtype);	}		@Override	public String toString() {		_postProcessToString();		return "new " + TAG + "(" + JsHelper.printJsObject(this) + ")";	}}

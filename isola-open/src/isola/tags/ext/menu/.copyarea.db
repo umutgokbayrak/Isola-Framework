@@ -1,0 +1,15 @@
+ClearCase CopyAreaDB|4
+toska/Isola/src/org/turkcell/isola/tags/ext/menu
+2
+b
+11:ColorMenuTag.java|1|11b7894a7e8|3f0|c6913228|73fd1f842c5b476985b194c2fc7e7ddf|0
+f:AdapterTag.java|1|11b7894a7e8|47a|6f8a5ffe|01d363805fdd4f68bb92e2fc8cbc0353|0
+10:BaseItemTag.java|1|11b7894a7e8|123a|1f8d82a5|edb7ee63e9204a1fa44255ade3ccabd2|0
+c:ItemTag.java|1|11b7894a7e8|c8b|10fbc8da|596a54dd7c3347b3902bd725e091acec|0
+10:DateItemTag.java|1|11b7894a7e8|3cb|f00e243b|de13e907ef9e457dbfce71ad97d85348|0
+11:SeparatorTag.java|1|11b7894a7e8|6f6|13841b26|78c06e1106de4ed597f38636f16b1274|0
+10:DateMenuTag.java|1|11b7894a7e8|3e1|8d2a2cb1|d702906b8e894b888fb733f87ff1fed9|0
+11:ColorItemTag.java|1|11b7894a7e8|3d2|f81f2797|81a34ccba3544618bb40224201879d1a|0
+10:TextItemTag.java|1|11b7894a7e8|731|e8462716|fe605e1673c1478f93b813f294e352e1|0
+11:CheckItemTag.java|1|11b7894a7e8|d7f|79f2a8a|68f41e42e30c40ef970340d5ae3ca591|0
+c:MenuTag.java|1|11b7894a7e8|2074|5ed7e591|8ee5f44df017445dbd1625f167ae8ebe|0

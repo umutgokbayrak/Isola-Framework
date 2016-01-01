@@ -1,0 +1,1 @@
+package isola.model.html.core;public interface ElementInt {	public String toString();}

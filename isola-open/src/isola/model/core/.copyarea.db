@@ -1,0 +1,16 @@
+ClearCase CopyAreaDB|4
+toska/Isola/src/org/turkcell/isola/model/core
+2
+c
+d:JsObject.java|1|11b78947cf0|25d|27db8d2|270cc983c030425e824b1bbf4cd1451d|0
+f:JsFunction.java|1|11b78947cf0|6d0|269feca4|b9016019314a4368867e078f24182877|0
+13:AjaxFormResult.java|1|11b789480d8|3a5|58ff152b|43933984c1504d6ebad8a18d6b5a6fcc|0
+1a:IsolaTemplateFunction.java|1|11b78947cf0|1a2|7db2810e|73e69314f702400ba4f6c7da0a9af58f|0
+f:JsVariable.java|1|11b78947cf0|53|c7331a7f|667690260afb490e85e83b12fc69284e|0
+11:TreeNodeItem.java|1|11b789480d8|4a0|841c5981|60da5aa2a77d40848202ff3358690fa6|0
+12:NameValuePair.java|1|11b789480d8|293|b96cbd74|bfeb272deac640a085b2bc6210930b9d|0
+a:JsMap.java|1|11b78947cf0|57a|d4c2ac69|917a29ef8f75492485c1c1ce9ee9ebc6|0
+13:LabelValuePair.java|1|11b789480d8|2a0|4b09c247|f9447f69d39e4e0493634e1fa6750d8a|0
+13:JsVariableImpl.java|1|11b78947cf0|1fc|df7093e3|9946e65c057842d0a71fc9c90f2d6514|0
+c:JsArray.java|1|11b78947cf0|702|46abe95a|e8d4c1093ff34f6e8c2113ccdea6577b|0
+d:JsRegExp.java|1|11b78947cf0|1b4|fc7d7f9b|2b54151c065c4dd4b4cf911cd708b1b6|0

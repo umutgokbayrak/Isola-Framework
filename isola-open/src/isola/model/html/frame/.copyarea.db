@@ -1,0 +1,7 @@
+ClearCase CopyAreaDB|4
+toska/Isola/src/org/turkcell/isola/model/html/frame
+2
+3
+a:Frame.java|1|11b78949848|18ff|cacdd254|694e0b40bdca4cbb86195869c21df433|0
+b:Iframe.java|1|11b78949848|20cc|5e7e3108|51ecaf5aa98e40da97507510f2bc3842|0
+d:FrameSet.java|1|11b78949848|94c|2399d078|2632d28aa2424fe189876915ae9016a6|0

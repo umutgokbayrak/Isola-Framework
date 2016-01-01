@@ -1,0 +1,8 @@
+ClearCase CopyAreaDB|4
+toska/Isola/src/org/turkcell/isola/tags/js/dom
+2
+4
+13:DetachEventTag.java|1|11b7894afb8|60f|a84fc1e0|b97d5458dc784af18bf0f30b8714eb72|0
+13:AttachEventTag.java|1|11b7894afb8|70a|cd4a10af|36767cd5701c4532ae5e12c42f281e2c|0
+13:AppendEventTag.java|1|11b7894afb8|795|dec23c24|364ffcd26758435eb68aba293ec9b8bc|0
+11:CloneNodeTag.java|1|11b7894afb8|4e0|c0ae836e|33cfbb42ff064d98bcccc248242ab081|0

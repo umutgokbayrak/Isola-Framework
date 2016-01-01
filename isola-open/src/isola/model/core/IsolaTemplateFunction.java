@@ -1,0 +1,1 @@
+package isola.model.core;public class IsolaTemplateFunction {	private String name;	private NameValuePair[] params;		public String getName() {		return name;	}		public void setName(String name) {		this.name = name;	}		public NameValuePair[] getParams() {		return params;	}		public void setParams(NameValuePair[] params) {		this.params = params;	}}

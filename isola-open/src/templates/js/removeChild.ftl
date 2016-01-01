@@ -1,0 +1,1 @@
+var parentObj = document.getElementById('${parentId}');var tempObj = document.getElementById('${elementId}');parentObj.removeChild(tmpObj);

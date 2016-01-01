@@ -1,0 +1,11 @@
+ClearCase CopyAreaDB|4
+toska/Isola/src/org/turkcell/isola/model/html/core
+2
+7
+e:Container.java|1|11b78949460|752f|5c218549|00af4c285f154cca9e4757e8a026b95b|0
+c:Element.java|1|11b78949460|580|8ea195ea|a0078f2f65e7408e991d17b0d7cccc3e|0
+d:Document.java|1|11b78949460|8b0|c57b878e|3e8e369f23a44781928178c652c2fcd0|0
+f:ElementInt.java|1|11b78949460|72|df802599|e4721f8ab70349c98d118d9f35b8a66e|0
+15:ContainerNoEvent.java|1|11b78949460|28f|a9dc270|c7442966fb1144fab4c6203004ef1609|0
+b:Window.java|1|11b78949460|1f04|148f00a8|d31be4cef3de418184fd7f582c9de79f|0
+d:TextNode.java|1|11b78949460|18c|a907707b|14d81cca4bca4bf6954562d99ef60475|0

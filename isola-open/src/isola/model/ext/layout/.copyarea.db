@@ -1,0 +1,14 @@
+ClearCase CopyAreaDB|4
+toska/Isola/src/org/turkcell/isola/model/ext/layout
+2
+a
+11:BorderLayout.java|1|11b789488a8|1baf|e8b99a33|a8dc997fa9dc427e936b2dd55ba452d0|0
+10:TableLayout.java|1|11b78948c90|e6c|8d496d23|1de6125843d9468b874c0379e8908fd9|0
+f:FormLayout.java|1|11b789488a8|1767|b9d53dbd|d8a0658aeeb844dd8a517d9e9d146bab|0
+f:CardLayout.java|1|11b789488a8|114d|46015762|10e6ec98a1b249cfba1473aca46ebe60|0
+e:FitLayout.java|1|11b789488a8|80b|73c978fb|9ecdd27ce6674fac8f66a38a488e8bdf|0
+11:ColumnLayout.java|1|11b789488a8|109f|27892cbe|e2e5d2bfa7b14680b84628001311664d|0
+11:AnchorLayout.java|1|11b789488a8|e98|fa4cd06|92ec576f52df4add93aad72acf205c51|0
+e:Accordion.java|1|11b789488a8|11b8|e92d71a5|d2ba8f0df52d4f05b53966c24a37ad8d|0
+14:ContainerLayout.java|1|11b789488a8|657|81baff34|e18e4806a6b94aeebd324f770918911f|0
+13:AbsoluteLayout.java|1|11b789488a8|50b|67692f6|6de7834e2d60419ea08cf1f400aebd8c|0

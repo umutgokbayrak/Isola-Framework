@@ -1,0 +1,12 @@
+ClearCase CopyAreaDB|4
+toska/Isola/src/org/turkcell/isola/tags/ext/layout
+2
+8
+14:ColumnLayoutTag.java|1|11b7894a7e8|f1d|19c4dd87|013affeec8484801b02c7d831d8c8334|0
+11:AccordionTag.java|1|11b7894a7e8|19ab|bfd7fa09|07554906aaf94762a86610408299b337|0
+11:FitLayoutTag.java|1|11b7894a7e8|81a|5e3187cf|f92250456b5d4f7fb6bc69eb4fa38ae8|0
+13:TableLayoutTag.java|1|11b7894a7e8|117c|d8dc7a1d|ac067e72d16c44c7b61037005d515829|0
+14:AnchorLayoutTag.java|1|11b7894a7e8|1070|9ba0568c|2259c1838efb4bb19b6d7b9a706d5464|0
+12:CardLayoutTag.java|1|11b7894a7e8|f3d|2edcc52|d078b907b2a44553adeeef56f0af6cb3|0
+14:BorderLayoutTag.java|1|11b7894a7e8|1ffd|df3821ed|93da95d172e84e2891f1c69430769e1d|0
+16:AbsoluteLayoutTag.java|1|11b7894a7e8|654|ce10f121|41b237c06daa47be8456d4ab3ab3cef1|0

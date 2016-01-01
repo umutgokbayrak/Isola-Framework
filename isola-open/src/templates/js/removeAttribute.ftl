@@ -1,0 +1,1 @@
+var tmpObj = document.getElementById('${elementId}');tmpObj.removeAttribute('${attributeName}');

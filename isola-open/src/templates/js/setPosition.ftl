@@ -1,0 +1,1 @@
+<#if elementId == '$window'>window.moveTo(${posX}, ${posY});<#else>var tmpObj = document.getElementById('${elementId}');tmpObj.style.position = 'absolute';tmpObj.style.left = '${posX}px';tmpObj.style.top = '${posY}px';</#if>

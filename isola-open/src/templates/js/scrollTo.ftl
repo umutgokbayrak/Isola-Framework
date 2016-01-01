@@ -1,0 +1,1 @@
+<#if elementId[0] == '$'>	$('${elementId[1..]}').scrollTo(${posX}, ${posY});<#else>	$('${elementId}').scrollTo(${posX}, ${posY});</#if>

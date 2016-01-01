@@ -1,0 +1,1 @@
+package isola.model.html.core;/** *  *  *  * @author Umut Gokbayrak *  *  */public class TextNode {	private String value;		public TextNode() {		super();	}		public TextNode(String value) {		this.value = value;	}		public String getValue() {		return value;	}		public void setValue(String value) {		this.value = value;	}}

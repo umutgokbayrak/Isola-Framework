@@ -1,0 +1,1 @@
+var parentObj = document.getElementById('${parentId}');var oldObj = document.getElementById('${oldElementId}');var tmpObj = document.createElement('${tag}');<#if innerHTML??>tmpObj.innerHTML = '${innerHTML?js_string}';</#if><#if attrs??><#list attrs as attr>tmpObj.setAttribute('${attr.label}', '${attr.value}');</#list></#if>parentObj.replaceChild(tmpObj, oldObj);

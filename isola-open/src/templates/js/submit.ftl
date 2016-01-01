@@ -1,0 +1,1 @@
+$('${formId}').fireEvent('submit');

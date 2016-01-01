@@ -1,0 +1,1 @@
+<script language="javascript"><#if runOnLoad == 'true'>Ext.onReady(function(){</#if><#if storeSession == 'true'>Ext.state.Manager.setProvider(new Ext.state.CookieProvider());</#if>${code}<#if runOnLoad == 'true'>}, this, {delay:100});</#if></script>

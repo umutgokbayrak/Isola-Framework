@@ -1,0 +1,1 @@
+$('${elementId}').makeResizable({	<#if handleId??>	handle: '${handleId}'	</#if>});

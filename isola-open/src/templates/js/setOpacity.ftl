@@ -1,0 +1,2 @@
+var tmpObj = document.getElementById('${elementId}');if (${opacity} == 0){	if (tmpObj.style.visibility != "hidden") tmpObj.style.visibility = "hidden";} else {	if (tmpObj.style.visibility != "visible") tmpObj.style.visibility = "visible";}
+try {tmpObj.style.opacity = (${opacity} / 100); } catch (omit) {}try {tmpObj.style.MozOpacity = (${opacity} / 100); } catch (omit) {}try {tmpObj.style.KhtmlOpacity = (${opacity} / 100); } catch (omit) {}try {tmpObj.style.filter = "alpha(opacity=${opacity})"; } catch (omit) {}

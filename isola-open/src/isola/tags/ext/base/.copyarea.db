@@ -1,0 +1,7 @@
+ClearCase CopyAreaDB|4
+toska/Isola/src/org/turkcell/isola/tags/ext/base
+2
+3
+11:ContainerTag.java|1|11b7894a018|2cd5|5eef2590|75b2ccff0e234baf95aa98643780ad43|0
+11:ComponentTag.java|1|11b7894a018|4c04|2ed6725c|88fbb151cf94498993e9c1d0c2075ec2|0
+12:ObservableTag.java|1|11b7894a018|4f3|af8476ab|f8e4b50411f549cbaef444d77b82b813|0

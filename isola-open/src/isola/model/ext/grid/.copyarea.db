@@ -1,0 +1,19 @@
+ClearCase CopyAreaDB|4
+toska/Isola/src/org/turkcell/isola/model/ext/grid
+2
+f
+17:CellSelectionModel.java|1|11b789488a8|6e4|14ca2752|f5d71278e48d4a23933c91a2edfa96af|0
+1b:CheckboxSelectionModel.java|1|11b789488a8|6dc|939021d4|bbf11a81f80f43b78aa6c7c3f7355114|0
+d:GridView.java|1|11b789488a8|7d2|a09271aa|a12baa855d1543589e00fd5eedbe078f|0
+18:PropertyColumnModel.java|1|11b789488a8|2f9|5883ec7b|687ce2cc92f94534bea84cbcae83b572|0
+16:RowSelectionModel.java|1|11b789488a8|46c|2eec665d|6f767d1c0cda4d1ba9dc96cfc073fc51|0
+1b:AbstractSelectionModel.java|1|11b789488a8|383|edb31eab|e5b8c805fc584ed3aeeee85e1fce06e6|0
+11:GroupingView.java|1|11b789488a8|1ad9|896518ae|ed61b1b57c2a4b6191e4c6f19e69b0f7|0
+10:RowNumberer.java|1|11b789488a8|6ef|e83716ab|aaab976efece4faeb8f16b0c56eea403|0
+15:GridSearchPlugin.java|1|11b789488a8|e02|20d4f72|aeff387d56644fd29f1d24b193fe5638|0
+11:PropertyGrid.java|1|11b789488a8|d38|2416fba6|4175fd56dcde47aba3559e7214bc5c4f|0
+13:PropertyRecord.java|1|11b789488a8|5b7|725fc950|271191391052421ebfb50c470f9e7c02|0
+10:ColumnModel.java|1|11b789488a8|1523|18598aa8|b9815fe8127349e6977ddae6e8a2d500|0
+14:EditorGridPanel.java|1|11b789488a8|79d|ed756490|cee5d6b7e65246d5a38792b05d092f4a|0
+12:PropertyStore.java|1|11b789488a8|455|762866dd|802b35db88ea471fa8d271d3edada5aa|0
+e:GridPanel.java|1|11b789488a8|1cc7|be8cdaff|2dcf3fe1bcd8410ba45ddf4dded7d467|0

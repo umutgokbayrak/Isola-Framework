@@ -1,0 +1,1 @@
+package isola.model.core;public interface JsVariable {}

@@ -1,0 +1,1 @@
+<#if elementId[0] == '$'>	<#if elementId[1..] == 'document'>		var tmpObj = ${elementId[1..]}.documentElement;	<#else>		var tmpObj = ${elementId[1..]};	</#if><#else>	var tmpObj = document.getElementById('${elementId}');</#if>tmpObj.setAttribute('${attributeName}', '${attributeValue}');

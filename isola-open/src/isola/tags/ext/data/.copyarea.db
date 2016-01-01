@@ -1,0 +1,13 @@
+ClearCase CopyAreaDB|4
+toska/Isola/src/org/turkcell/isola/tags/ext/data
+2
+9
+12:ArrayStoreTag.java|1|11b7894a018|1525|f588f37c|2deef6f00c054d41b81940744e383018|0
+14:StoreMappingTag.java|1|11b7894a018|91b|c362b56a|aa50d86721aa468aa6d2d10d774beeeb|0
+11:XTemplateTag.java|1|11b7894a018|7b6|d9546b9c|5ec0ef4c666744c092b3329d43719d31|0
+14:ContextStoreTag.java|1|11b7894a018|16f0|92a1b8c4|8c13fb22b32e4f5f80e0fbc5823eb851|0
+10:XmlStoreTag.java|1|11b7894a018|1058|280e55c|58cc5153ec5849a89c040c7607a61f48|0
+c:NodeTag.java|1|11b7894a018|1bc4|9bc587cf|147b2f32fa5f4f3a97d306469bbacde9|0
+d:StoreTag.java|1|11b7894a018|3309|f12ca4de|a2efd02795b24979b9cea261b60bb7b8|0
+11:JsonStoreTag.java|1|11b7894a018|117b|fd2256c7|ae5c2413f209408c809252a2aefce1f7|0
+11:HttpParamTag.java|1|11b7894a018|c13|fb89a39d|5477ebd7b2d846bba7b40dd585d5b866|0

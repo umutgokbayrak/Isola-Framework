@@ -1,0 +1,15 @@
+ClearCase CopyAreaDB|4
+toska/Isola/src/org/turkcell/isola/model/ext/menu
+2
+b
+d:DateMenu.java|1|11b78948c90|2b6|717ad28e|b1431cc369524d2782a5b374d8f6ce74|0
+e:ColorMenu.java|1|11b78948c90|2be|51ded6cf|db36a33ceed5420190aab8ecb93b9983|0
+e:ColorItem.java|1|11b78948c90|2a1|f23dcc86|68ef0f1313d549fbaa8f79b8442d6ade|0
+d:DateItem.java|1|11b78948c90|29e|4db4c9f9|9771381f82b9445b941aa83823ec2221|0
+e:CheckItem.java|1|11b78948c90|79d|8e4252fb|4dbaaa8765fa48bdad582002578cd17d|0
+9:Menu.java|1|11b78948c90|a6d|d4313d9e|5070eeb2ad41496b97d31247e7511530|0
+9:Item.java|1|11b78948c90|9b4|a324e0c9|841968fcb5284bc3954df4f94f1c3ec7|0
+e:Separator.java|1|11b78948c90|4b4|3aee7117|a4063dbfddfb437caacf902a35de6e08|0
+d:BaseItem.java|1|11b78948c90|7e7|ccba6f4c|49146c89730c45bb91c9145ff2bad537|0
+d:TextItem.java|1|11b78948c90|606|556ad352|8d515858df664a3e9597e792a1483cfa|0
+c:Adapter.java|1|11b78948c90|34b|c513065c|e5ddfd52a28c4c9f9122b0056d638ec6|0

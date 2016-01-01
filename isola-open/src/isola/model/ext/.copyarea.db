@@ -1,0 +1,17 @@
+ClearCase CopyAreaDB|4
+toska/Isola/src/org/turkcell/isola/model/ext
+2
+d
+4:form|2|0|0|0|6ea9be7a936541329001065312f8686b|0
+6:layout|2|0|0|0|050e05f1201a444bb06ae25049eef9c1|0
+4:tree|2|0|0|0|ab9af8e03ed4405889618a7fb86a701a|0
+6:visual|2|0|0|0|cba21760c6494bdebd5e15f2c8cabbac|0
+4:misc|2|0|0|0|87cdd926d6724d5394cb77e4c25bb20b|0
+7:toolbar|2|0|0|0|11e5494ef96b46668ece17bbe1350f7f|0
+4:base|2|0|0|0|3eda1f631f0b44058a735dcb11b9dce6|0
+4:grid|2|0|0|0|9e004c4282994574b013986a4e60c821|0
+9:constants|2|0|0|0|8116ebe740cc418b87838ff53fce2ced|0
+9:container|2|0|0|0|e50155f6b8ba4f2fb0cfabe41dcf22a4|0
+4:data|2|0|0|0|28fd2a301a4f4ecfa09b7779c90cfbb9|0
+4:menu|2|0|0|0|6090b8732f3640a1804259ffcf769450|0
+6:window|2|0|0|0|1a9c2a8b61f7430eb26cb3930e4efe0f|0

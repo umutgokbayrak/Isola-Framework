@@ -1,0 +1,1 @@
+<#if id??>${id} = </#if>window.open('<#if url??>${url}</#if>','<#if name??>${name}</#if>','<#if features??>	<#list features as feature>		${feature.label}=${feature.value},	</#list>	win=true</#if>');

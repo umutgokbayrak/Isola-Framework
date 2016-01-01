@@ -1,0 +1,17 @@
+package isola.model.ext.form;import isola.helpers.JsHelper;import isola.model.core.JsFunction;import isola.model.ext.constants.XTypes;/** *  * <p> * A specialized SplitButton that contains a menu of Ext.menu.CheckItem * elements. *  * The button automatically cycles through each menu item on click, raising the *  * button's change event (or calling the button's changeHandler function, if *  * supplied) for the active menu item. Clicking on the arrow section of the * button *  * displays the dropdown menu just like a normal SplitButton. Example usage: * </p> *  *  *  * <pre> * &lt;code&gt; * 
+ * var btn = new Ext.CycleButton({ * 
+ *     showText: true, * 
+ *     prependText: 'View as ', * 
+ *     items: [{ * 
+ *         text:'text only', * 
+ *         iconCls:'view-text', * 
+ *         checked:true * 
+ *     },{ * 
+ *         text:'HTML', * 
+ *         iconCls:'view-html' * 
+ *     }], * 
+ *     changeHandler:function(btn, item){ * 
+ *         Ext.Msg.alert('Change View', item.text); * 
+ *     } * 
+ * }); * 
+ * &lt;/code&gt; * </pre> *  *  *  * @author Umut Gokbayrak *  *  */public class CycleButton extends SplitButton {	private static final long serialVersionUID = -3887740923302871011L;	private static final String TAG = "Ext.CycleButton";	/**	 * 	 * A callback function that will be invoked each time the active menu item	 * in the	 * 	 * button's menu has changed. If this callback is not supplied, the	 * SplitButton	 * 	 * will instead fire the change event on active item change. The	 * changeHandler	 * 	 * function will be called with the following argument list: (SplitButton	 * this,	 * 	 * Ext.menu.CheckItem item)	 */	public JsFunction changeHandler;	/**	 * 	 * A static string to prepend before the active item's text when displayed	 * as	 * 	 * the button's text (only applies when showText = true, defaults to '')	 */	public String prependText;	/**	 * 	 * True to display the active item's text as the button text (defaults to	 * false)	 */	public boolean showText = false;	/**	 * 	 * <p>	 * The registered xtype to create. This config option is not used when	 * passing a	 * 	 * config object into a constructor. This config option is used only when	 * lazy	 * 	 * instantiation is being used, and a child item of a Container is being	 * 	 * specified not as a fully instantiated Component, but as a Component	 * config	 * 	 * object. The xtype will be looked up at render time up to determine what	 * 	 * type of child Component to create.	 * </p>	 * 	 * 	 * 	 * @see XTypes <p>	 *      If you subclass Components to create your own Components, you may	 *      register	 * 	 *      them using Ext.ComponentMgr.registerType in order to be able to take	 *      advantage	 * 	 *      of lazy instantiation and rendering.	 *      </p>	 */	public String xtype = XTypes.cycle;		public CycleButton() {		super();	}		protected void _postProcessToString() {		super._postProcessToString();		if (changeHandler != null)			put("changeHandler", changeHandler);		if (prependText != null)			put("prependText", prependText);		if (showText)			put("showText", showText);		if (xtype != null)			put("xtype", xtype);	}		@Override	public String toString() {		_postProcessToString();		return "new " + TAG + "(" + JsHelper.printJsObject(this) + ")";	}}
